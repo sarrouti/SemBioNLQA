@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	<h:head>
+		<h:outputStylesheet library="css" name="jsfcrud_1.css"  />
+	</h:head>  
+    <h:body>
+		
+<br/>
+<h:form  class="jsfcrud_list_form" id="home">
+          <h:panelGrid  columns="3" 
+         cellpadding="10" cellspacing="1" style=" margin: 0 auto">
+     <f:facet name="footer">
+              
+            <h:panelGroup style="display:block; text-align:center">
+<h:commandLink action="#{navigationBean.redirectToIndex}" style="font-weight:bold; color: blue" value="Home"/>
+             - <h:commandLink action="#{navigationBean.redirectToAboutUs}" style="font-weight:bold; color: blue" value="About Us"/>
+             - <h:commandLink action="#{navigationBean.redirectToPublications}" style="font-weight:bold; color: blue" value="Publications"/>
+             - <h:commandLink action="#{navigationBean.redirectToInfo}" style="font-weight:bold; color: blue" value="Question Collection"/>
+             - <h:commandLink action="#{navigationBean.redirectToInfo}" style="font-weight:bold; color: blue" value="Other Links"/>
+            </h:panelGroup>
+          </f:facet> 
+</h:panelGrid>
+</h:form>
+
+<br/>
+<br/>
+<h:form  class="jsfcrud_list_form" id="search">
+    
+<!--            <h3>Ask your question</h3>-->
+          <h:panelGrid  columns="1" 
+         cellpadding="10" cellspacing="1" style=" margin: 0 auto">
+<f:facet name="footer">         
+ <h:panelGroup style="display:block; text-align:center">
+    <h:outputLink action="#{navigationBean.redirectToAboutUs}">   <h:graphicImage library="css" name="logo.jpg" style="width: 400px;left: 50%;
+    top: 50% "/></h:outputLink>
+          </h:panelGroup>
+         </f:facet> 
+ 
+  </h:panelGrid>
+  
+  
+  <h:panelGroup style="display:block; text-align:center">
+             
+         
+           <h:inputText id="question" value ="#{resultsBean.input}" style="height:25px" size="82"/>
+           <h:commandButton onclick="document.getElementById('progressbar').style.display='block'" id="button" type="submit" style=" font-weight:bold; color: blue; width:150px;height:35px"   value="Answer It!" action="#{resultsBean.submit}">  
+          </h:commandButton>
+            </h:panelGroup>
+   </h:form>  
+    
+  <h:panelGrid  columns="1" cellpadding="10" cellspacing="1" style=" margin: 0 auto">
+        <br/><br/>
+        <h:panelGroup style="display:block; text-align:center">
+            
+             <img id="progressbar" title="please wait"  src="resources/css/ajax-loader4.gif" style="display:none; width: 40px;height: 40px" />
+             
+         </h:panelGroup></h:panelGrid>
+    
+
+    </h:body>
+</html>
+

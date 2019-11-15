@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-codec-1.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-codec-1.10-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-codec-1.10-tests.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-codec-1.10-test-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpclient-cache-4.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpcore-nio-4.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/httpmime-4.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/javax.json.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/javax.json-api-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jdom-2.0.5.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jdom-2.0.5-contrib.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jdom-2.0.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jdom-2.0.5-junit.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jdom-2.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/jersey-bundle-1.17.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/joda-time.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/joda-time-2.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/json-simple.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/mallet.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/mallet-deps.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/porter-stemmer-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/rita.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/rita.support.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/skrAPI.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/slf4j-simple.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/stanford-corenlp-3.6.0.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/stanford-corenlp-3.6.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/stanford-corenlp-3.6.0-models.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/stanford-corenlp-3.6.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/ws4j-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/these/Nouveau dossier/BioMedNLQA/build/web/WEB-INF/lib/ws4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/these/question answering/Proposed QA/Implimentation/servlet-api-2.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

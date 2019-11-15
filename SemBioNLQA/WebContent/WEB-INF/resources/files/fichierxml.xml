@@ -1,0 +1,469 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2018//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">25404426</PMID>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2017</Year>
+            <Month>11</Month>
+            <Day>13</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1179-2027</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>33</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PharmacoEconomics</Title>
+                <ISOAbbreviation>Pharmacoeconomics</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cost effectiveness of rivaroxaban for stroke prevention in German patients with atrial fibrillation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>271-83</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s40273-014-0236-9</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The aim of this study was to assess the cost effectiveness of the novel fixed-dose anticoagulant rivaroxaban compared with the current standard of care, warfarin, for the prevention of stroke in patients with atrial fibrillation (AF).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A Markov model was constructed to model the costs and health outcomes of both treatments, potential adverse events, and resulting health states over 35 years. Analyses were based on a hypothetical cohort of 65-year-old patients with non-valvular AF at moderate to high risk of stroke. The main outcome measure was cost per quality-adjusted life-year (QALY) gained over the lifetime, and was assessed from the German Statutory Health Insurance (SHI) perspective. Costs and utility data were drawn from public data and the literature, while event probabilities were derived from both the literature and rivaroxaban's pivotal ROCKET AF trial.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Stroke prophylaxis with rivaroxaban offers health improvements over warfarin treatment at additional cost. From the SHI perspective, at baseline the incremental cost-effectiveness ratio of rivaroxaban was &lt;euro&gt;15,207 per QALY gained in 2014. The results were robust to changes in the majority of variables; however, they were sensitive to the price of rivaroxaban, the hazard ratios for stroke and intracranial hemorrhage, the time horizon, and the discount rate.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our results showed that the substantially higher medication costs of rivaroxaban were offset by mitigating the shortcomings of warfarin, most notably frequent dose regulation and bleeding risk. Future health economic studies on novel oral anticoagulants should evaluate the cost effectiveness for secondary stroke prevention and, as clinical data from direct head-to-head comparisons become available, new anticoagulation therapies should be compared against each other.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mensch</LastName>
+                    <ForeName>Alexander</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Cologne Institute for Health Economics and Clinical Epidemiology, University of Cologne, Gleueler Straße 176-178, 50935, Cologne, Germany, alexander.mensch@yahoo.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stock</LastName>
+                    <ForeName>Stephanie</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stollenwerk</LastName>
+                    <ForeName>Björn</ForeName>
+                    <Initials>B</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Müller</LastName>
+                    <ForeName>Dirk</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>Pharmacoeconomics</MedlineTA>
+            <NlmUniqueID>9212404</NlmUniqueID>
+            <ISSNLinking>1170-7690</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000925">Anticoagulants</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D065427">Factor Xa Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>5Q7ZVV76EI</RegistryNumber>
+                <NameOfSubstance UI="D014859">Warfarin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>9NDF7JZ4M3</RegistryNumber>
+                <NameOfSubstance UI="D000069552">Rivaroxaban</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>T</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Cardiol. 1998 Oct 16;82(8A):2N-9N</RefSource>
+                <PMID Version="1">9809895</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 1995 Mar 13;155(5):469-73</RefSource>
+                <PMID Version="1">7864703</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Econ. 2014 Aug;17(8):587-98</RefSource>
+                <PMID Version="1">24831811</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2000 Mar 18;355(9208):956-62</RefSource>
+                <PMID Version="1">10768433</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Ther. 2014 Feb 1;36(2):192-210.e20</RefSource>
+                <PMID Version="1">24508420</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2007 Jun 19;146(12):857-67</RefSource>
+                <PMID Version="1">17577005</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Rev Port Cardiol. 2014 Sep;33(9):535-44</RefSource>
+                <PMID Version="1">25241380</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacoeconomics. 2003;21(9):651-9</RefSource>
+                <PMID Version="1">12807366</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Intern Med. 2011 Jan 4;154(1):1-11</RefSource>
+                <PMID Version="1">21041570</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Cardiovasc Pharmacol Ther. 2008 Jun;13(2):107-19</RefSource>
+                <PMID Version="1">18495905</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1996 Oct 16;276(15):1253-8</RefSource>
+                <PMID Version="1">8849754</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Intern Med. 2012 Dec;23(8):742-4</RefSource>
+                <PMID Version="1">22917757</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Drug Investig. 2014 Jan;34(1):9-17</RefSource>
+                <PMID Version="1">24135964</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Value Health. 2009 Jun;12(4):507-20</RefSource>
+                <PMID Version="1">19900253</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Value Health. 2004 Mar-Apr;7(2):144-52</RefSource>
+                <PMID Version="1">15164804</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacoeconomics. 2013 Oct;31(10):909-18</RefSource>
+                <PMID Version="1">24030788</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Health Syst Pharm. 2004 Jun 15;61(12):1258-64</RefSource>
+                <PMID Version="1">15259756</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Circulation. 2011 Jun 7;123(22):2562-70</RefSource>
+                <PMID Version="1">21606397</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Geriatr Soc. 2002 May;50(5):863-9</RefSource>
+                <PMID Version="1">12028173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Interv Card Electrophysiol. 2001 Sep;5(3):267-73</RefSource>
+                <PMID Version="1">11500581</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Best Pract Res Clin Haematol. 2013 Jun;26(2):225-37</RefSource>
+                <PMID Version="1">23953910</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2001 Jan;119(1 Suppl):108S-121S</RefSource>
+                <PMID Version="1">11157645</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2001 Jun 13;285(22):2864-70</RefSource>
+                <PMID Version="1">11401607</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Cardiol. 2012 Sep 15;110(6):845-51</RefSource>
+                <PMID Version="1">22651881</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Heart. 1999 Nov;82(5):539-40</RefSource>
+                <PMID Version="1">10525502</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cost Eff Resour Alloc. 2014 Feb 10;12(1):5</RefSource>
+                <PMID Version="1">24512351</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Blood. 2014 Aug 7;124(6):955-62</RefSource>
+                <PMID Version="1">24859362</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Heart. 2012 Apr;98 (7):573-8</RefSource>
+                <PMID Version="1">22422743</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cerebrovasc Dis. 2008;25(3):225-33</RefSource>
+                <PMID Version="1">18216464</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Ann Pharmacother. 2005 Apr;39(4):632-6</RefSource>
+                <PMID Version="1">15713790</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2010 Nov;138(5):1093-100</RefSource>
+                <PMID Version="1">20299623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cerebrovasc Dis. 2003;15(1-2):29-36</RefSource>
+                <PMID Version="1">12499708</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 1987 Sep;147(9):1561-4</RefSource>
+                <PMID Version="1">3632164</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2012 Jun;107(6):1172-9</RefSource>
+                <PMID Version="1">22473219</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2012 Sep;108(3):476-84</RefSource>
+                <PMID Version="1">22740145</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 1995 Dec 20;274(23):1839-45</RefSource>
+                <PMID Version="1">7500532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2003 Sep 11;349(11):1019-26</RefSource>
+                <PMID Version="1">12968085</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 1998 Jan;29(1):126-32</RefSource>
+                <PMID Version="1">9445340</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Decis Making. 1993 Oct-Dec;13(4):322-38</RefSource>
+                <PMID Version="1">8246705</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2004 Jan;91(1):87-94</RefSource>
+                <PMID Version="1">14691573</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 1993 Jun;24(6):796-800</RefSource>
+                <PMID Version="1">8506550</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Med. 2000 Oct 15;109(6):481-8</RefSource>
+                <PMID Version="1">11042238</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 1995 Jul;26(7):1189-92</RefSource>
+                <PMID Version="1">7604411</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurol Neurosurg Psychiatry. 1990 Jan;53(1):16-22</RefSource>
+                <PMID Version="1">2303826</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 1991 Aug;22(8):983-8</RefSource>
+                <PMID Version="1">1866765</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2012;7(10):e47473</RefSource>
+                <PMID Version="1">23056642</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Heart J. 2012 Nov;33(21):2719-47</RefSource>
+                <PMID Version="1">22922413</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Med. 2007 Aug;120(8):700-5</RefSource>
+                <PMID Version="1">17679129</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thromb Haemost. 2011 May;105(5):908-19</RefSource>
+                <PMID Version="1">21431243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Curr Med Res Opin. 2008 Oct;24(10):2757-65</RefSource>
+                <PMID Version="1">18715524</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2005 Feb 9;293(6):699-706</RefSource>
+                <PMID Version="1">15701911</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2011 Sep 8;365(10):883-91</RefSource>
+                <PMID Version="1">21830957</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Neurol. 2009 Jun;256(6):954-63</RefSource>
+                <PMID Version="1">19252783</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Value Health. 2013 Jun;16(4):498-506</RefSource>
+                <PMID Version="1">23796283</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 2013 Jun;44(6):1676-81</RefSource>
+                <PMID Version="1">23549134</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacoeconomics. 2003;21(3):191-200</RefSource>
+                <PMID Version="1">12558469</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 2010 Sep 18;376(9745):975-83</RefSource>
+                <PMID Version="1">20801496</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Value Health. 2007 Mar-Apr;10(2):137-43</RefSource>
+                <PMID Version="1">17391422</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 2003 Aug;34(8):2060-5</RefSource>
+                <PMID Version="1">12843354</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Med Econ. 2012;15(4):695-703</RefSource>
+                <PMID Version="1">22397590</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2000 Jan 10;160(1):41-6</RefSource>
+                <PMID Version="1">10632303</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 2007 Feb 12;167(3):239-45</RefSource>
+                <PMID Version="1">17296878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 1994 Jul 11;154(13):1449-57</RefSource>
+                <PMID Version="1">8018000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Intern Med. 2014 Mar;25(3):247-54</RefSource>
+                <PMID Version="1">24477050</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacoeconomics. 2006;24(11):1043-53</RefSource>
+                <PMID Version="1">17067190</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Intern Med. 1996 Sep 9;156(16):1829-36</RefSource>
+                <PMID Version="1">8790077</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Stroke. 2003 Jul;34(7):1710-6</RefSource>
+                <PMID Version="1">12805495</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>JAMA. 2001 May 9;285(18):2370-5</RefSource>
+                <PMID Version="1">11343485</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000925" MajorTopicYN="N">Anticoagulants</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000627" MajorTopicYN="Y">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001281" MajorTopicYN="N">Atrial Fibrillation</DescriptorName>
+                <QualifierName UI="Q000150" MajorTopicYN="N">complications</QualifierName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003362" MajorTopicYN="N">Cost-Benefit Analysis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D065427" MajorTopicYN="N">Factor Xa Inhibitors</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000627" MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005858" MajorTopicYN="N" Type="Geographic">Germany</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006470" MajorTopicYN="N">Hemorrhage</DescriptorName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="N">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008390" MajorTopicYN="N">Markov Chains</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019057" MajorTopicYN="N">Quality-Adjusted Life Years</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069552" MajorTopicYN="N">Rivaroxaban</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000627" MajorTopicYN="Y">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D020521" MajorTopicYN="N">Stroke</DescriptorName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000209" MajorTopicYN="N">etiology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014859" MajorTopicYN="N">Warfarin</DescriptorName>
+                <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+                <QualifierName UI="Q000191" MajorTopicYN="N">economics</QualifierName>
+                <QualifierName UI="Q000627" MajorTopicYN="N">therapeutic use</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25404426</ArticleId>
+            <ArticleId IdType="doi">10.1007/s40273-014-0236-9</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

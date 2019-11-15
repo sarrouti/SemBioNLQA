@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    	xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"    
+      xmlns:pp="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    
+    
+    <h:head>
+        <title>About Us</title>
+       <h:outputStylesheet library="css" name="jsfcrud_2.css"  />
+    </h:head>
+    <h:body>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <h:form>
+  
+    <p:tabMenu   style="background-color: #ccff33 ">
+    <p:menuitem value="Home" outcome="index.xhtml" icon="ui-icon-star">
+    </p:menuitem>
+    <p:menuitem value="About Us" outcome="AboutUs.xhtml" icon="ui-icon-search">
+    </p:menuitem>
+    <p:menuitem value="Publications" outcome="Publications.xhtml" icon="ui-icon-document">
+    </p:menuitem>
+    <p:menuitem value="Resources" outcome="Resources.xhtml" icon="ui-icon-wrench">
+    </p:menuitem>
+    <p:menuitem value="Future Projects" outcome="FutureProjects.xhtml" icon=" ui-icon-bookmark">
+    </p:menuitem>
+    <p:menuitem value="Forum" outcome="Forums.xhtml" icon="ui-icon-person">
+    </p:menuitem>
+   
+</p:tabMenu>
+       </h:form>
+      <br/><br/>          
+         <h:panelGrid columns="2" cellpadding="10" cellspacing="1" style="  width:100%; margin: 0 auto">
+    <h:panelGroup><h:outputText value="Mourad Sarrouti" style="color: blue;font-weight:bold"/> is a PhD student in Computer Science at
+Faculty of Science Dhar El Mahraz (FSDM), Sidi Mohammed Ben Abdellah University (USMBA),
+          Fez, Morocco. He received his Master’s degree in Computer Science from
+          the same university. He leads research in information retrieval, natural
+          language processing, biomedical question answering system, and extracting
+          information from biomedical text .</h:panelGroup>
+    <h:panelGroup> <h:graphicImage library="css" name="mourad.png" style=" height: 100px; width: 110px  "/></h:panelGroup>
+
+    <h:panelGroup><h:outputText value="Said Ouatik El Alaoui" style="color: blue;font-weight:bold"/> is working as a Professor in Department of Computer Science, Faculty of Science Dhar
+El Mahraz (FSDM), at Sidi Mohamed Ben Abdellah University (USMBA), Fez, Morocco. His current research
+interests include high-dimensional indexing and content-based retrieval, 2D/3D Shapes Indexing, Natural Language
+Processing, Information Retrieval, Biomedical Question Answering, Biomedical Information Extraction, and Arabic
+Document Categorization.</h:panelGroup>
+    <h:panelGroup><h:graphicImage library="css" name="mourad.png" style=" height: 100px; width: 110px  "/></h:panelGroup>
+
+       </h:panelGrid>
+        
+        
+        
+        <br/><br/><br/><br/>
+       
+      
+    </h:body>
+</html>
+

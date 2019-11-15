@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	 	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+	
+	
+<head>
+
+<title>SemBioNLQA</title>
+<h:outputStylesheet library="resources" name="jsfcrud_2.css"  />
+
+</head>
+
+<h:body>
+		<div id="page">
+		 
+			<div id="header">
+				<ui:insert name="header" >
+					<ui:include src="header.xhtml" />
+				</ui:insert>
+			</div>
+		   
+		   <!-- La div avec le id= content, Represente le contenu spécifique à chaque vue  --> 
+			<div id="content">
+				<ui:insert name="content" >
+					<ui:include src="content.xhtml" />
+				</ui:insert>
+			</div>
+			
+			<!-- La div avec le id= footer, Represente le contenu spécifique au pied de page par défaut  -->     
+			<div id="footer">
+				<ui:insert name="footer" >
+					<ui:include src="footer.xhtml">
+					  
+					</ui:include>
+				</ui:insert>
+			</div>
+		</div>
+    </h:body>
+
+
+</html>
+
+

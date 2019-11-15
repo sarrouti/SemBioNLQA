@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    	  xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"    
+      xmlns:pp="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    
+    
+    <h:head>
+        <title>Facelet Title</title>
+       <h:outputStylesheet library="css" name="jsfcrud_2.css"  />
+    </h:head>
+    <h:body>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+        <h:form>
+
+    <p:tabMenu   style="background-color: #ccff33 ">
+    <p:menuitem value="Home" outcome="index.xhtml" icon="ui-icon-star">
+    </p:menuitem>
+    <p:menuitem value="About Us" outcome="AboutUs.xhtml" icon="ui-icon-search">
+    </p:menuitem>
+    <p:menuitem value="Publications" outcome="Publications.xhtml" icon="ui-icon-document">
+    </p:menuitem>
+    <p:menuitem value="Resources" outcome="Resources.xhtml" icon="ui-icon-wrench">
+    </p:menuitem>
+    <p:menuitem value="Future Projects" outcome="FutureProjects.xhtml" icon="ui-icon-bookmark">
+    </p:menuitem>
+    <p:menuitem value="Forum" outcome="Forums.xhtml" icon="ui-icon-person">
+    </p:menuitem>
+   
+</p:tabMenu>
+       </h:form>
+      <br/> 
+      
+        <div style="padding-left: 10px;padding-right: 0px;padding-top: 5px;padding-bottom: 5px;margin-right: 5px;margin-bottom: 5px;">
+        <h:outputText style="color: red; font-weight:bold" value="Introduction"/><br/><br/>
+        <h:outputText value="SemBioNLQA - Semantic Biomedical Natural Language Question Answering - has the ability to handle the kinds of yes/no questions, factoid questions, list questions and summary questions that are commonly asked in the biomedical domain. It is aimed to be able to accept a variety of natural language questions and to generate appropriate natural language answers by providing both exact and ideal answers (paragraph-sized summaries). It provides exact answers “yes” or “no” for yes/no questions, biomedical named entities for factoid questions, and a list of biomedical named entities for list questions. In addition to exact answers for yes/no, factoid and list questions, SemBioNLQA also returns ideal answers, while it retrieves only ideal answers for summary questions."/>
+        <br/>
+        
+        
+        </div>
+        <h:form  class="jsfcrud_list_form" id="search">
+    
+           <h:panelGroup style="display:block; text-align:center">
+   
+           <h3>Ask your question in natural language to SemBioNLQA:</h3>
+        
+           <p:inputText id="question" value ="#{resultsBean.input}" required="true" style="height:25px" size="82">
+                      <f:validateLength minimum="10" />
+           </p:inputText>
+           <h:commandButton onclick="document.getElementById('progressbar').style.display='block'" update="@form" 
+           id="button" type="submit" 
+           style="border-color:blue; font-weight:bold; background-color:blue; color: white; width:150px;height:35px" 
+           onmousemove="this.style.backgroundColor='#4080ff';this.style.borderColor='#4080ff'" 
+            onmouseout="this.style.backgroundColor='blue';this.style.borderColor='blue'" 
+             value="Answer It!" action="#{resultsBean.submit}">  
+          </h:commandButton>
+          
+<!--           <p:message for="question" showSummary="Please ask question" display="icon" /> -->
+            
+           </h:panelGroup>
+          <h:panelGrid  columns="1" cellpadding="10" cellspacing="1" style=" margin: 0 auto">
+          <br/><br/>
+          <h:panelGroup style="display:block; text-align:center">
+             <img id="progressbar" title="please wait"  src="resources/css/ajax-loader4.gif" style="display:none; width: 40px;height: 40px" />
+          </h:panelGroup></h:panelGrid>
+          
+     
+ 
+ <!--         Search results  -->
+			
+     <h:panelGroup style="margin-left:5px;" layout="block" rendered="#{resultsBean.hidden}">
+     
+     
+    <div style="background-color: #F1F1F1;padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;margin-right: 5px;margin-bottom: 5px;">
+     
+     <h:outputText style ="font-weight : bolder;color: blue" value="Question Type :  " />
+     <h:outputText value="#{resultsBean.output}" />
+    </div>
+  
+   <!--       Exact Answers:  -->
+   <div style="background-color: #F1F1F1;padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;margin-right: 5px;margin-bottom: 5px;">
+     
+     <h4 style="color: blue"><span>Exact Answers :</span></h4>
+    
+   <!--     yesno -->
+    <h:panelGroup style="margin-left:10px;margin-right:10px" layout="block" rendered="#{resultsBean.hidden2}">
+    <h:outputText style=" font-weight : bolder;color: black;font: arial,helvetica,clean,sans-serif;" value="#{resultsBean.getExactanswer()}" />
+    </h:panelGroup>
+    
+    
+     <!--     factoid and list -->
+	<h:panelGroup style="margin-left:10px;margin-right:10px" layout="block" rendered="#{resultsBean.hidden3}">
+	<p:dataTable  styleClass="fixed-size" value="#{resultsBean.getExactanswers()}" var="answer">
+    <p:column style="font-size: small;font: arial,helvetica,clean,sans-serif;" headerText="Exact answers">
+        <h:outputText style=" font-weight : bolder;color: black;font: arial,helvetica,clean,sans-serif;" value="#{answer.answer}" />
+         <p:rating value="#{answer.score.intValue()}" stars="5" cancel="false" >
+         
+         </p:rating>
+    </p:column>
+ 
+    <p:column style="font-size: small;font: arial,helvetica,clean,sans-serif;" headerText="Synonyms">
+        <h:dataTable value="#{answer.synonyms}" var="syn">
+        <h:column > 
+        
+         <h:outputText style="font: arial,helvetica,clean,sans-serif;" value="#{syn}" />
+        </h:column>
+        
+        </h:dataTable>
+        <h:outputText style=" font: arial,helvetica,clean,sans-serif;" value="#{doc.pmid}" />
+    </p:column>
+ 
+     </p:dataTable>
+	</h:panelGroup>
+	
+     <!-- 	summary -->
+	<h:panelGroup style="margin-left:10px;margin-right:10px" layout="block" rendered="#{resultsBean.hidden4}">
+    <h:outputText style=" font-weight : bolder;color: black;font: arial,helvetica,clean,sans-serif;" value="No exact answers are available for this question" />
+    </h:panelGroup>
+     </div>
+            <!--      Fin Exact Answers:  -->
+     
+     <div style="background-color: #F1F1F1;padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;margin-right: 5px;margin-bottom: 5px;">
+
+     <h4 style="color: blue"><span>Ideal Answers :</span></h4>
+     <div style=" margin-left: 10px;margin-right:5px;">
+	 <h:outputText  value="#{resultsBean.getIdealanswer()}" />
+	 </div >
+	
+     </div>
+         
+   
+          
+     <div style="background-color: #F1F1F1;padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;margin-right: 5px;">
+     <h4 style="color: blue"><span>Relevant Snippets :</span></h4>	 
+     <h:dataTable rowIndexVar="row"  id="tid2" styleClass="fixed-size" value="#{resultsBean.getPassages()}" var="passage">
+      
+       <h:column  headerClass="col1">
+        <h:outputText styleClass="tableColumnHeader2" value="#{passage.index}." /> 
+       </h:column>
+ 
+     <h:column>
+     
+        <h:outputText styleClass="tableColumnHeader2" value="#{passage.text}"/> 
+        <h:outputLink styleClass="tableColumnHeader2" value="#{passage.link}">#{passage.link}</h:outputLink> 
+     </h:column>
+       
+     <br/>
+     <br/>
+     </h:dataTable>
+   
+     </div>   
+     
+     <div style=" background-color: #F1F1F1;padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;margin-right: 5px;margin-top: 5px;">
+     <h4 style="color: blue"><span>Relevant PubMed Documents :</span></h4>	 
+     <h:dataTable id="tid3" styleClass="fixed-size" value="#{resultsBean.getDocuments()}" var="doc">
+      <h:column  headerClass="col1">
+        <h:outputText styleClass="tableColumnHeader2" value="#{doc.index}." /> 
+       </h:column>
+     <h:column >
+     <h:outputLink styleClass="myCustomLinkStyle" value="#{doc.pmid}">#{doc.title}</h:outputLink> 
+<!--          <h:outputText styleClass="tableColumnHeader3" value="#{doc.getAbstract()}"/> -->
+         <h:outputText styleClass="tableColumnHeader2" value="#{doc.pmid}"/> 
+        
+     </h:column>
+     </h:dataTable>
+     </div>    
+     
+      </h:panelGroup>
+   
+
+			
+			
+			
+			
+   
+   
+
+    
+    
+   </h:form>  
+          
+          
+           #{resultsBean.setInput('')}
+           #{resultsBean.setOutput('')}
+           #{resultsBean.setMsg1('')}
+           #{resultsBean.setMsg2('')}
+            #{resultsBean.setDocuments(null)}
+             #{resultsBean.setHidden(false)}
+              #{resultsBean.setHidden2(false)}
+               #{resultsBean.setHidden3(false)}
+                #{resultsBean.setHidden4(false)}
+    <br/><br/>   <br/><br/>   
+    </h:body>
+</html>
+
