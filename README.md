@@ -1,4 +1,5 @@
 
+SemBioNLQA: A semantic biomedical question answering system for retrieving exact and ideal answers to natural language questions
 
 SemBioNLQA - Semantic Biomedical Natural Language Question Answering - has the ability to handle the kinds of yes/no questions, factoid questions, 
 list questions and summary questions that are commonly asked in the biomedical domain. It is aimed to be able to accept a variety of natural language 
@@ -15,7 +16,7 @@ Sidi Mohammed Ben Abdellah University.
 To run the project:
 -	Download the SemBioNLQA web project from  
 -	Please import the Java project on your eclipse
--       Please use Tomcat 7 which is also included in the archive. This Tomcat includes some library used in this system.
+- Please use Tomcat 7 which is also included in the archive. This Tomcat includes some library used in this system.
 
 
 Please contact Mourad Sarrouti (sarrouti.mourad@gmail.com or mourad.sarrouti@usmba.ac.ma) if you have any questions or comments.
