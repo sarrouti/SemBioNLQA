@@ -1,4 +1,4 @@
-MarkdowSemBioNLQA: A semantic biomedical question answering system for retrieving exact and ideal answers to natural language questions
+SemBioNLQA: A semantic biomedical question answering system for retrieving exact and ideal answers to natural language questions
 ===================
 
 SemBioNLQA - Semantic Biomedical Natural Language Question Answering - has the ability to handle the kinds of yes/no questions, factoid questions, 
@@ -8,17 +8,12 @@ answers “yes” or “no” for yes/no questions, biomedical named entities fo
 In addition to exact answers for yes/no, factoid and list questions, SemBioNLQA also returns ideal answers, while it retrieves only ideal answers for summary 
 questions.
 
-SemBioNLQA is developed by  Dr. Mourad Sarrouti and Prof Said Ouatik El Alaoui at LIM laboratory, Faculty of Sciences Dhar El Mahraz, 
-Sidi Mohammed Ben Abdellah University.
-
-
-
 To run the project:
 -	Download the SemBioNLQA web project from  
 -	Please import the Java project on your eclipse
 - Please use Tomcat 7 which is also included in the archive (https://sites.google.com/site/mouradsarrouti/sembionlqa). This Tomcat includes some library used in this system.
 
-Install:
+#Installing:#
 
 1. Download the SemBioNLQA web application.
 
