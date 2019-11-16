@@ -13,7 +13,7 @@ To run the project:
 -	Please import the Java project on your eclipse
 - Please use Tomcat 7 which is also included in the archive (https://sites.google.com/site/mouradsarrouti/sembionlqa). This Tomcat includes some library used in this system.
 
-#Installing:#
+# Installing: #
 
 1. Download the SemBioNLQA web application.
 
@@ -25,5 +25,6 @@ To run the project:
 
 5. Run the application.
 
+# Contact: #
 
 Please contact Mourad Sarrouti (sarrouti.mourad@gmail.com) if you have any questions or comments.
