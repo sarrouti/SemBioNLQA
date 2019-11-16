@@ -16,16 +16,11 @@ Sidi Mohammed Ben Abdellah University.
 To run the project:
 -	Download the SemBioNLQA web project from  
 -	Please import the Java project on your eclipse
-- Please use Tomcat 7 which is also included in the archive. This Tomcat includes some library used in this system.
-
-
-Please contact Mourad Sarrouti (sarrouti.mourad@gmail.com or mourad.sarrouti@usmba.ac.ma) if you have any questions or comments.
-
-
+- Please use Tomcat 7 which is also included in the archive (https://sites.google.com/site/mouradsarrouti/sembionlqa). This Tomcat includes some library used in this system.
 
 Install:
 
-1. Download the SemBioNLQA web application from  https://sites.google.com/site/mouradsarrouti/sembionlqa
+1. Download the SemBioNLQA web application.
 
 2. Clone the project into a local directory.
 
@@ -36,7 +31,4 @@ Install:
 5. Run the application.
 
 
-License
-
-This project is licensed under the Apache License ver 2.0 - see https://www.apache.org/licenses/LICENSE-2.0 for details. 
-However, please note that some third-party dependencies may be licensed differently.
+Please contact Mourad Sarrouti (sarrouti.mourad@gmail.com) if you have any questions or comments.
