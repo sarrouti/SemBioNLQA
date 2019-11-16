@@ -8,7 +8,7 @@ The SemBioNLQA system, dealing with four types of questions, is based on (1) han
 Compared with the current state-of-the-art biomedical QA systems, SemBioNLQA, a fully automated system, has the potential to deal with a large amount of question and answer types. SemBioNLQA retrieves quickly users’ information needs by returning exact answers (e.g., “yes”, “no”, a biomedical entity name, etc.) and ideal answers (i.e., paragraph-sized summaries of relevant information) for yes/no, factoid and list questions, whereas it provides only the ideal answers for summary questions. Moreover, experimental evaluations performed on biomedical questions and answers provided by the BioASQ challenge especially in 2015, 2016 and 2017 (as part of our participation), show that SemBioNLQA achieves good performances compared with the most current state-of-the-art systems and allows
 a practical and competitive alternative to help information seekers find exact and ideal answers to their biomedical
 questions.
-![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/Graphical%20abstract.pdf "Title is optional")
+![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/Graphical%20abstract-1.jpg "Title is optional")
 
 # Installing #
 
