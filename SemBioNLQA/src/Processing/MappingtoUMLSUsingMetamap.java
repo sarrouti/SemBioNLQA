@@ -21,7 +21,7 @@ public class MappingtoUMLSUsingMetamap {
      Double score;
      AA a;
     public MappingtoUMLSUsingMetamap() {
-     myIntMMObj = new GenericObject(100, "sarrouti", "SARROUTI076902107_");
+     myIntMMObj = new GenericObject(100, "", "");
      myIntMMObj.setField("Email_Address", "sarrouti.mourad@gmail.com");
      myIntMMObj.setField("SilentEmail", true);
      myIntMMObj.setField("KSOURCE", "2017AB");//semrep MTI metamap 2014AA
