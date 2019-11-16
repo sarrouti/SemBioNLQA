@@ -9,7 +9,7 @@ SemBioNLQA - Semantic Biomedical Natural Language Question Answering - has the a
 
 2. Clone the project into a local directory.
 
-3. Instal Tomact 7 which is included in the downloaded archive (https://sites.google.com/site/mouradsarrouti/sembionlqa). We have included all the requered library in this tomcat.
+3. Instal Tomact 7 which is included in the downloaded archive (https://sites.google.com/site/mouradsarrouti/sembionlqa). We have included all requered libraries in this tomcat.
 
 4. Import SemBioNLQA project in eclipse.
 
