@@ -19,7 +19,7 @@ public class TestMapping {
      */
     public static void main(String[] args) {
      GenericObject1 myIntMMObj;
-        myIntMMObj = new GenericObject1(100, "sarrouti", "SARROUTI076902107_");
+        myIntMMObj = new GenericObject1(100, "", "");
      myIntMMObj.setField("Email_Address", "sarrouti.mourad@gmail.com");
      myIntMMObj.setField("SilentEmail", true);
 
