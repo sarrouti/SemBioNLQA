@@ -12,7 +12,7 @@ questions.
 
 We implemented SemBioNLQA using JSF 2, PrimeFaces, JavaBean and Tomcat 7.
 
-![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/SemBioNLQAp.jpg "Title is optional")
+![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQAp.png "Title is optional")
 
 
 # Installing #
