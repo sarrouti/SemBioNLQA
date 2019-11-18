@@ -5,16 +5,14 @@ SemBioNLQA - Semantic Biomedical Natural Language Question Answering - has the a
 
 The SemBioNLQA system, dealing with four types of questions, is based on (1) handcrafted lexico-syntactic patterns and a machine learning algorithm for question classification, (2) PubMed search engine and UMLS similarity for document retrieval, (3) the BM25 model, stemmed words and UMLS concepts for passage retrieval, and (4) UMLS metathesaurus, BioPortal synonyms, sentiment analysis and term frequency metric for answer extraction. 
 
-Compared with the current state-of-the-art biomedical QA systems, SemBioNLQA, a fully automated system, has the potential to deal with a large amount of question and answer types. SemBioNLQA retrieves quickly users’ information needs by returning exact answers (e.g., “yes”, “no”, a biomedical entity name, etc.) and ideal answers (i.e., paragraph-sized summaries of relevant information) for yes/no, factoid and list questions, whereas it provides only the ideal answers for summary questions. Moreover, experimental evaluations performed on biomedical questions and answers provided by the BioASQ challenge especially in 2015, 2016 and 2017 (as part of our participation), show that SemBioNLQA achieves good performances compared with the most current state-of-the-art systems and allows
-a practical and competitive alternative to help information seekers find exact and ideal answers to their biomedical
-questions.
+
 ![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/Graphical%20abstract-1.jpg "Title is optional")
 
 We implemented SemBioNLQA using JSF 2, PrimeFaces, JavaBean and Tomcat 7.
 
 ![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQAp.png "Title is optional")
 
-
+SemBioNLQA first takes as its input a natural language biomedical question and includes preprocessing of the question, identification of the question type and the expected answer format based on handcrafted lexico-syntactic patterns and support vector machine (SVM), as well as building a query using UMLS entities. Then, based on PubMed and UMLS similarity, it retrieves documents satisfying the query from the MEDLINE database. After that, it extracts top-ranked passages from top-ranked documents based on the BM25 model, stemmed words and UMLS concepts. Finally, it generates and returns both “exact” (depending on the expected answer for each question type) and paragraph-sized “ideal” answers from these passages based on the UMLS metathesaurus, BioPortal synonyms, SENTIWORDNET and term frequency metric.
 # Installing #
 
 1. Download the SemBioNLQA web application.
