@@ -10,6 +10,11 @@ a practical and competitive alternative to help information seekers find exact a
 questions.
 ![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/Graphical%20abstract-1.jpg "Title is optional")
 
+We implemented SemBioNLQA using JSF 2, PrimeFaces, JavaBean and Tomcat 7.
+
+![picture alt](https://github.com/sarrouti/SemBioNLQA/blob/master/SemBioNLQA/SemBioNLQAp.jpg "Title is optional")
+
+
 # Installing #
 
 1. Download the SemBioNLQA web application.
