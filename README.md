@@ -28,6 +28,18 @@ SemBioNLQA first takes as its input a natural language biomedical question and i
 # Reference #
 
 If you use this system or any part of this system, please cite our paper:
+@article{Sarrouti_2020,
+	doi = {10.1016/j.artmed.2019.101767},
+	url = {https://doi.org/10.1016%2Fj.artmed.2019.101767},
+	year = 2020,
+	month = {jan},
+	publisher = {Elsevier {BV}},
+	volume = {102},
+	pages = {101767},
+	author = {Mourad Sarrouti and Said Ouatik El Alaoui},
+	title = {{SemBioNLQA}: A semantic biomedical question answering system for retrieving exact and ideal answers to natural language questions},
+	journal = {Artificial Intelligence in Medicine}
+}
 
 
 # Contact Information: #
